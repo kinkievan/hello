@@ -7,8 +7,6 @@ os.putenv('LC_ALL', 'en_US.UTF-8')
 from flask import Flask
 app = Flask(__name__)
 import logging,sys
-import logging,sys
-
 filelog = True
 path = r'log.txt'
 logger = logging.getLogger('log')
