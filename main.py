@@ -1,4 +1,4 @@
-import logging,sys
+ï»¿import logging,sys
 
 filelog = True
 path = r'log.txt'
@@ -27,4 +27,4 @@ ch.setFormatter(formatter)
 logger.addHandler(ch)
 
 if __name__ == '__main__':
-    logger.info("¿àÍQª´")
+    logger.info("è³´ç‚˜çŽ«")
